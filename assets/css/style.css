@@ -1,0 +1,130 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a { color:blue; text-decoration: none;}
+.bar {
+    background-color: #f9f9fb;
+    padding:15px;
+    border-top: solid 1px #cdcdcd;
+    border-bottom: solid 1px #cdcdcd;
+}
+
+.content {
+    max-width: 1440px;
+    margin: auto;
+    grid-gap: 3rem;
+    display: grid;
+    gap: 3rem;
+    grid-template-areas: "sidebar main anchors";
+    grid-template-columns: minmax(0,15rem) minmax(0,2.5fr) minmax(0,15rem);
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.anchors {
+    border-left: solid 1px #cdcdcd;
+    padding-left: 15px;
+    float: left;
+    width: 200px;
+    padding: 20px;
+}
+  
+  ul {
+    list-style-type: disc;
+    padding: 10px;
+    margin: 0;
+  }
+  
+  li {
+    margin-bottom: 10px;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: #fff;
+    background-color: #000;
+  }
+  
+
+.sidebar {
+    border-right: solid 1px #cdcdcd;
+}
+
+#figure-imagem {
+    float: left;
+    margin-right: 30px; 
+  }
+  
+
+.main-figcaption{
+    font-size: 0.8em;
+}
+
+.figure-section{
+    border: 1px solid #cdcdcd;
+    background-color: #eceaea;
+}
+
+summary{
+    padding-bottom: 30px;
+}
+
+/*Notas*/
+
+.main-note{
+    padding-left: 1.6em;
+    margin-bottom: 0.5em;
+}
+
+/* tabela */
+
+.main-episodes {
+    border: 1px solid black; /* Adiciona uma borda preta na tabela */
+    border-collapse: collapse; /* Remove as bordas duplicadas entre as células */
+    background-color: #f9f9f9; /* Adiciona uma cor de fundo para a tabela */
+    width: 100%; /* Define a largura da tabela para 100% da largura do elemento pai */
+    text-align: center; /* Centraliza o conteúdo das células na horizontal */
+  }
+  
+  .main-episodes th, .main-episodes td {
+    border: 1px solid black; /* Adiciona uma borda preta nas células */
+    padding: 8px; /* Adiciona um espaçamento interno de 8 pixels nas células */
+  }
+
+  th {
+    background-color: #cdcdcd;
+  }
+  
+
+/* Rodapé */
+.main-footer {
+    padding: 20px;
+    min-height: 100px;
+    border-top: solid 1px #cdcdcd; 
+    font-size: 0.8em;   
+}
+
+
+.footer-links li{
+    margin: -10px;
+    padding: 5px;
+    display: inline-block;
+
+}
+
+.footer-links a{
+    font-size: 0.8em;
+    margin: 10px;
+
+}
+
+.copyright{
+    text-align: center;
+    font-size: 0.75em;
+}
